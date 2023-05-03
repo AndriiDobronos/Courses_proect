@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+html {
+  font-size: 24px
+}
+h1 {
+    font-size: 32px
+}
+:root {
+  --text-color:#003366;
+  --text-shadow: 3px 3px 4px #999999;
+  --box-shadow: 3px 3px 3px #999999 ;
+  --background-center: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  --background-contour:#E7E7E7;
+  --background-image: url("../static/Logo/background-drops.jpg");
+  --accent-color: #c32b37;
+  --green-color: green;
+
+}

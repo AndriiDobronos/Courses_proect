@@ -1,0 +1,78 @@
+
+.download {
+  position: fixed;
+  right: 40%;
+  background: rgba(231,231,231,0.5);
+  .resume-download {
+    color: var(--green-color);
+  }
+}
+.resume {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 86%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--background-center);
+  box-shadow: var(--box-shadow );
+  border-radius: 20px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  .resume-left-side {
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid #cccccc;
+    padding-right: 10px;
+    @media screen and (max-width: 768px) {
+      border-right: 0;
+    }
+  }
+  .resume-title {
+    font-size: 48px;
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .resume h1,h2,h3,h4,h5,h6 {
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    margin-bottom: 10px;
+  }
+  .resume-right-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+}
+a {
+  font-size: 18px;
+  text-decoration: none ;
+  color: var(--text-color);
+}
+a:hover {
+  text-decoration: underline;
+}
+.download-btn {
+  margin-left: 25px;
+  margin-top: 30px;
+  padding: 12px;
+  border-radius: 12px;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  background: var(--background-contour);
+  box-shadow: var(--box-shadow );
+}
+.download-btn:hover {
+  background: var(--background-center);
+}
+.text-btn {
+  font-weight: 700;
+}
+.valuation {
+  margin-top: 0;
+  padding-top: 0;
+}
