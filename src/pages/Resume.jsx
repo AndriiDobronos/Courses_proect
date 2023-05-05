@@ -19,13 +19,10 @@ export default () => {
         <p>{resume.summary}
         </p>
         <h4>SKILLS</h4>
-            <li>{resume.skills.react}</li>
-            <li>{resume.skills.script}</li>
-            <li>{resume.skills.html}</li>
-            <li>{resume.skills.scss}</li>
-            <li>{resume.skills.bootstrap}</li>
-            <li>{resume.skills.git}</li>
-            <li>{resume.skills.sass}</li>
+            {resume.skills.map(content =>{
+                return <li key={content.text}>
+                    {content.text}
+                </li>})}
         <h4>EDUCATION</h4>
         <li>
             {resume.education.place}<br/>

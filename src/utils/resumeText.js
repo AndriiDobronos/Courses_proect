@@ -14,15 +14,29 @@ export default {
         "            dedicated to growing my skills in the IT industry. With my strong math skills\n" +
         "            and attention to detail, I am confident in my ability to succeed as a front-end\n" +
         "            developer in Ukraine's competitive market.",
-    skills:{
-        react: "React",
-        script: "JavaScript",
-        html: "HTML",
-        scss: "SCSS",
-        bootstrap: "Bootstrap",
-        git: "GitHub",
-        sass: "SASS"
-    },
+    skills:[
+        {
+            text: "React",
+        },
+        {
+            text: "JavaScript",
+        },
+        {
+            text: "HTML",
+        },
+        {
+            text: "SCSS",
+        },
+        {
+            text: "Bootstrap",
+        },
+        {
+            text: "GitHub",
+        },
+        {
+            text: "SASS"
+        }
+    ],
     education: {
         place: "Engineer-technologist radio-electronics at Kharkiv\n" +
             "            Aviation Institute\n",
